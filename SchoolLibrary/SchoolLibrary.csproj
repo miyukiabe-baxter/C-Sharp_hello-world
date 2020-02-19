@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="HighSchool.cs" />
+    <Compile Remove="Elementry.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Elementry.cs" />
+    <None Remove="HighSchool.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Elementary\" />
+    <Folder Include="MiddleSchool\" />
+  </ItemGroup>
+</Project>
